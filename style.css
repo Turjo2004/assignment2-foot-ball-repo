@@ -1,0 +1,82 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+.first-h1{
+    color: #FFFFFF;
+    font-size: 50px;
+    height: 9%;
+    font-weight: 1200;
+    
+}
+.text-button{
+    text-decoration: none;
+    background-color: orange;
+    color: white;
+    font-weight: 800px;
+    padding: 10px 40px;
+    border-radius: 20px;
+ 
+}
+.text-button:hover{
+    background-color: chartreuse;
+}
+.half-width{
+    width: 1430px;
+    padding-left: 10%;
+    padding-top: 10%;
+    background-color: #2D25A0;
+    height: 677px ;
+}
+.half-width img{
+    width: 90%;
+}
+
+.flexible-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 15px 15px 15px 15px ;
+    
+}
+
+.container{
+    background-color: #ffffff;
+    width: 1800px;
+    padding: 30px 30px 30px 30px;
+    margin-top: 20px;
+}
+.players{
+    display: flex ;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 24px;
+
+}
+.player .player-pic img{
+    width: 100%;
+
+}
+/* Media Queries  */
+
+/* Mobile Devices  */
+@media only screen and (max-width:688px){
+    .container{
+        width: 100%;
+    }
+    .player, .players{
+
+    grid-template-columns: repeat(1, 1fr);
+}
+.player, .blog{
+    flex-direction: column;
+}
+}
+}
+/* tablet devices  */
+@media only screen and (min-width:688px) and (max-width:992px){
+    .container{
+        width: 100%;
+
+    }
+    .player, .players{
+        grid-template-columns: repeat(2, 1fr);        
+    }
+}
