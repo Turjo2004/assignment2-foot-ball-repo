@@ -55,6 +55,8 @@
     width: 100%;
 
 }
+
+
 /* Media Queries  */
 
 /* Mobile Devices  */
@@ -81,4 +83,3 @@
         grid-template-columns: repeat(2, 1fr);        
     }
 }
-
