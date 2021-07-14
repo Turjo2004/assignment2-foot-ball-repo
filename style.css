@@ -50,6 +50,7 @@
     grid-column-gap: 24px;
 
 }
+
 .player .player-pic img{
     width: 100%;
 
@@ -80,3 +81,4 @@
         grid-template-columns: repeat(2, 1fr);        
     }
 }
+
